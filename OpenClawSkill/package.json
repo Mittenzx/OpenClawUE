@@ -1,0 +1,43 @@
+{
+  "name": "openclaw-skill-unreal-control",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for controlling Unreal Engine through OpenClawUE plugin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "openclaw",
+    "unreal-engine",
+    "ue5",
+    "automation",
+    "ai",
+    "mcp",
+    "blueprint",
+    "material",
+    "widget"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mittenzx/OpenClawUE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mittenzx/OpenClawUE/issues"
+  },
+  "homepage": "https://github.com/Mittenzx/OpenClawUE#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
