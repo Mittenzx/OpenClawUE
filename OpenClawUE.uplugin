@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "OpenClawUE",
+	"Description": "Unreal Engine plugin for OpenClaw integration. Enables AI assistants to control UE5 through MCP protocol.",
+	"Category": "Programming",
+	"CreatedBy": "OpenClaw Community",
+	"CreatedByURL": "https://openclaw.ai",
+	"DocsURL": "https://docs.openclaw.ai/plugins/openclawue",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Mittenzx/OpenClawUE/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "OpenClawUE",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "OpenClawMCP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "OpenClawPython",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
